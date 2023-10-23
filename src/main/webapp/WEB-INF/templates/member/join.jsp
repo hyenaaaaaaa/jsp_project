@@ -32,12 +32,12 @@
         <dl>
             <dt>이메일</dt>
             <dd>
-                <input type="text" name="email">
+                <input type="email" name="email">
             </dd>
         </dl>
         <div>
-                <input type="checkbox" name="agree" value="true" id="agree">
-                <label for="agree">회원가입 약관에 동의 합니다.</label>
+            <input type="checkbox" name="agree" value="true" id="agree">
+            <label for="agree">회원가입 약관에 동의 합니다.</label>
         </div>
         <button type="submit">가입하기</button>
     </form>
