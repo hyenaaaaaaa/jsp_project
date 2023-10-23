@@ -26,8 +26,8 @@ public class JoinService {
 
         Member member = Member.builder()
                 .userId(request.getParameter("userId"))
-                .userPw(request.getParameter("userpw"))
-                .confirmUserPw(request.getParameter("confirmUserpw"))
+                .userPw(request.getParameter("userPw"))
+                .confirmUserPw(request.getParameter("confirmUserPw"))
                 .email(request.getParameter("email"))
                 .userNm(request.getParameter("userNm"))
                 .agree(agree)
