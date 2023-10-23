@@ -35,6 +35,7 @@ public class LoginController extends HttpServlet {
             String userId = req.getParameter("userId");
             String saveId = req.getParameter("saveId");
             Cookie cookie = new Cookie("saveId", userId);
+
             if (saveId == null) { //미 체크 - 쿠키 제거
                 cookie.setMaxAge(0);
             } else { //체크 상태 - 쿠키 저장
